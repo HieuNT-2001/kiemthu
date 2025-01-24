@@ -54,7 +54,7 @@ public class CaculatorTest {
 	@Test
 	public void testDiv() {
 		int result = caculator.div(10, 5);
-		int expected = 3;
+		int expected = 2;
 		assertEquals(expected, result);
 	}
 
