@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Chạy theo class -->
+<!-- <suite name="Suite1" verbose="1">
+    <test name="Regression1">
+        <classes>
+            <class name="com.edu.test.utils.Demo1Test" />
+            <class name="com.edu.test.utils.Demo2Test" />
+        </classes>
+    </test>
+</suite> -->
+
+<!-- Chạy theo package -->
+<!-- <suite name="Suite1" verbose="1">
+    <test name="Regression1">
+        <packages>
+            <package name="com.edu.test.utils" />
+            <package name="com.edu.test.login" />
+            <package name="com.edu.test.sale" />
+        </packages>
+    </test>
+</suite> -->
+
+<!-- Chạy theo group -->
+<!-- <suite name="Suite1" verbose="1">
+    <test name="Regression1">
+        <groups>
+            <run>
+                <exclude name="brokenTests" />
+                <include name="Regression3" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.edu.test.utils.GroupDemoTest">
+                <methods>
+                    <include name="testCase1" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite> -->
+
+<!-- Chạy theo phương thức -->
+<suite name="Suite1" verbose="1">
+    <test name="Regression1" preserve-order="false">
+        <classes>
+
+            <class name="com.edu.test.utils.MethodDemoTest">
+                <methods>
+                    <include name="testCase1" />
+                    <include name="testCase2" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

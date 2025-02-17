@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-17T09:08:18 GMT+07:00" name="Suite1" finished-at="2025-02-17T09:08:18 GMT+07:00" duration-ms="34">
+    <groups>
+    </groups>
+    <test started-at="2025-02-17T09:08:18 GMT+07:00" name="Regression1" finished-at="2025-02-17T09:08:18 GMT+07:00" duration-ms="34">
+      <class name="com.edu.test.utils.MethodDemoTest">
+        <test-method signature="testCase1()[pri:0, instance:com.edu.test.utils.MethodDemoTest@702657cc]" started-at="2025-02-17T09:08:18 GMT+07:00" name="testCase1" finished-at="2025-02-17T09:08:18 GMT+07:00" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.edu.test.utils.MethodDemoTest@702657cc]" started-at="2025-02-17T09:08:18 GMT+07:00" name="testCase2" finished-at="2025-02-17T09:08:18 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.edu.test.utils.MethodDemoTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
