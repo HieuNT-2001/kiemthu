@@ -2,10 +2,10 @@ package com.edu.model;
 
 public class DongVat {
 
-    private String ma = "DVxx1";
-    private String ten = "Đây là động vật";
-    private int canNang = 120;
-    private String noiSong = "Chuồng trại";
+    private String ma;
+    private String ten;
+    private int canNang;
+    private String noiSong;
 
     public DongVat() {
         super();
